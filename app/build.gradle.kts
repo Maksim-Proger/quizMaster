@@ -41,7 +41,7 @@ android {
 dependencies {
 
     // Библиотека для работы с Lotti анимацией
-    implementation("com.airbnb.android:lottie:4.2.1")
+    implementation("com.airbnb.android:lottie:6.3.0")
 
     // Библиотека для работы с Recycler View
     implementation("androidx.recyclerview:recyclerview:1.3.2")
