@@ -13,8 +13,12 @@
         <action
             android:id="@+id/action_mainFragment_to_welcomeScreenFragment"
             app:destination="@id/welcomeScreenFragment"
+
+
             app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"/>
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
 
     <fragment
@@ -26,7 +30,9 @@
             android:id="@+id/action_welcomeScreenFragment_to_surveyScreenFragment"
             app:destination="@id/surveyScreenFragment"
             app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"/>
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
 
     <fragment
@@ -38,7 +44,10 @@
             android:id="@+id/action_surveyScreenFragment_to_resultsScreenFragment"
             app:destination="@id/resultsScreenFragment"
             app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"/>
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
         <action
             android:id="@+id/action_surveyScreenFragment_to_welcomeScreenFragment"
             app:destination="@id/welcomeScreenFragment"
@@ -55,12 +64,16 @@
         <action
             android:id="@+id/action_resultsScreenFragment_to_welcomeScreenFragment"
             app:destination="@id/welcomeScreenFragment"
-            app:enterAnim="@anim/slide_in_left"
-            app:exitAnim="@anim/slide_out_right"/>
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
         <action
             android:id="@+id/action_resultsScreenFragment_to_mainFragment"
             app:destination="@id/mainFragment"
-            app:enterAnim="@anim/slide_in_left"
-            app:exitAnim="@anim/slide_out_right"/>
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
     </fragment>
 </navigation>
